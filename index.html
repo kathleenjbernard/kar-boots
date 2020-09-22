@@ -46,28 +46,28 @@
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="main.html">Home</a>
+                        <a class="nav-link active" href="index.html" data-scroll-nav="0">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#process-section">My Process</a>
+                        <a class="nav-link" href="#process-section"data-scroll-nav="1">My Process</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio-section">My Work</a>
+                        <a class="nav-link" href="#portfolio-section"data-scroll-nav="2">My Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonials-section">Testimonials</a>
+                        <a class="nav-link" href="#testimonials-section" data-scroll-nav="3">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#faq-section">FAQ</a>
+                        <a class="nav-link" href="#faq-section"data-scroll-nav="4">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pricing-section">Pricing</a>
+                        <a class="nav-link" href="#pricing-section"data-scroll-nav="5">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-section">About Kurt</a>
+                        <a class="nav-link" href="#about-section"data-scroll-nav="6">About Kurt</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact-section">CONTACT</a>
+                        <a class="nav-link" href="#contact-section"data-scroll-nav="7">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -91,7 +91,7 @@
                             </span>
                     </h1>
                     <!--<p class="margin-30px-bottom sm-margin-20px-bottom xs-display-none">Professional and affordable mixing for your single, EP, or album</p> -->
-                    <a href="javascript:void(0);" class="btn">
+                    <a href="#contact-section" class="btn" data-scroll-index="7">
                         <span>Hire me</span>
                     </a>
                 </div>
@@ -207,7 +207,7 @@
     <!-- End About Section-->
 
     <!-- Start Portfolio Section -->
-    <section id="portfolio-section" class="portfolio" data-scroll-index="3">
+    <section id="portfolio-section" class="portfolio" data-scroll-index="2">
         <div class="alt-font text-pink-color margin-5px-bottom text-uppercase letter-spacing-1 text-center">Portfolio</div>
         <h2 class="cursive-heading">Listen to my work</h2>
         <div class="separator-line-horrizontal-medium-light2 bg-pink center-col"></div>
@@ -259,7 +259,7 @@
     <!-- End Portfolio Section -->
 
     <!-- Start Testimonials & Faq Section -->
-    <div id="testimonials-section" class="bg-light-gray">
+    <div id="testimonials-section" class="bg-light-gray" data-scroll-index="3">
         <div class="container-fluid">
             <div class="row">
                 <!-- start testimonials -->
@@ -272,25 +272,20 @@
                         </div>
                         <div class="owl-carousel owl-theme">
                             <!-- start testimonials item-->
+                            
+                            <!-- end testimonials item-->
+                           <!-- start testimonials item-->
                             <div class="citem">
                                 <i class="fas fa-quote-left font-size22 margin-40px-bottom text-white-color"></i>
+                                <p>Kurt’s expertise was truly the missing piece to my songs. It’s incredible how he can take a project and showcase each song’s true strengths with his mixing style. There isn’t anyone else that I feel more comfortable working with.</p>
+                                <div class="separator-line-verticle-extra-large bg-white center-col margin-30px-tb"></div>
+                                <h4>Tyler Common</h4>
+                                <h6>Musician / Signature Mistakes</h6>
+                                <div class="margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom separator-line-horrizontal-medium-light2 bg-pink center-col"></div>
                                 <p>Have you worked with me already? <a href="mailto:kathleenjbernard@gmail.com" class="text-pink-color">Click here </a>to share your experience!</p>
                                 <div class="bg-white center-col margin-30px-tb"></div>
-                                
                             </div>
-                            <!-- end testimonials item-->
-                            <!--
-                            <!-- start testimonials item-->
-                            <!--<div class="citem">
-                                <i class="fas fa-quote-left font-size22 margin-40px-bottom text-white-color"></i>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,deserunt mollit anim id est laborum.</p>
-                                <div class="separator-line-verticle-extra-large bg-white center-col margin-30px-tb"></div>
-                                <h4>Ivonne Drennan</h4>
-                                <h6>Manager</h6>
-                            </div>
-                            <!-- end testimonials item-->
-                        
-
+                            <!--end testimonials item-->
                             <!-- start testimonials item-->
                             <!--<div class="citem">
                                 <i class="fas fa-quote-left font-size22 margin-40px-bottom text-white-color"></i>
@@ -306,7 +301,7 @@
                 <!-- end testimonials -->
 
                 <!-- start faqs -->
-                <div id="faq-section" class="col-lg-6 col-md-12">
+                <div id="faq-section" class="col-lg-6 col-md-12" data-scroll-index="4">
                     <div class="padding-ten-all sm-padding-50px-tb sm-no-padding-lr text-center">
                         <div class="wow fadeInUp">
                             <div class="alt-font text-pink-color margin-5px-bottom text-uppercase letter-spacing-1">More Information</div>
@@ -450,7 +445,7 @@
     <!-- End Testimonials & Faqs -->
 
     <!-- Start Price Section -->
-    <section id="pricing-section" class="price bg-light-gray" data-scroll-index="4">
+    <section id="pricing-section" class="price bg-light-gray" data-scroll-index="5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-sm-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin wow fadeInUp">
@@ -491,7 +486,7 @@
                         </div>
                         <div class="value">
                             <h3>20<span>$</span></h3>
-                            <span class="per">Per Hour</span>
+                            <span class="per">Per hour</span>
                         </div>
                         
                         <div>
@@ -528,7 +523,7 @@
     <!-- End price section -->
 
     <!-- Start about section -->
-    <section id="about-section" class="blog" data-scroll-index="5">
+    <section id="about-section" class="blog" data-scroll-index="6">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 col-sm-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin wow fadeInUp">
@@ -557,10 +552,10 @@
     <!-- End about Section -->
 
     <!-- Start Contact Section -->
-    <section id="contact-section" class=" bg-dark no-padding" data-scroll-index="6">
+    <section id="contact-section" class=" bg-dark no-padding" data-scroll-index="7">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6  col-xl-10">
+                <div class="col-lg-12">
                    
                     <div class="padding-ten-all sm-padding-50px-tb sm-no-padding-lr info">
                         <div class="wow fadeInUp">
