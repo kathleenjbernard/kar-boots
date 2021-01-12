@@ -28,6 +28,7 @@ Table of contents
 
 h3#kurt-roy-audio {
   font-family: 'cedarville cursive', cursive;
+  font-display: block;
   color: rgb(255, 231, 235);
   text-shadow: 5px 5px 15px rgb(255, 0, 98), -5px -5px 15px rgb(255, 0, 191);
   font-size: 4rem;
